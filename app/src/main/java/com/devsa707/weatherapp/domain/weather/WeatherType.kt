@@ -1,7 +1,7 @@
 package com.devsa707.weatherapp.domain.weather
 
 import androidx.annotation.DrawableRes
-import com.plcoding.weatherapp.R
+import com.devsa707.weatherapp.R
 
 sealed class WeatherType(
     val weatherDesc: String,
