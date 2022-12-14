@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.devsa707.weatherapp.domain.location.LocationTracker
 import com.devsa707.weatherapp.domain.repository.WeatherRepository
-import com.devsa707.weatherapp.domain.util.Resource
+import com.devsa707.weatherapp.di.util.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject

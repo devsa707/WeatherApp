@@ -3,7 +3,7 @@ package com.devsa707.weatherapp.data.repository
 import com.devsa707.weatherapp.data.mappers.toWeatherInfo
 import com.devsa707.weatherapp.data.remote.WeatherAPI
 import com.devsa707.weatherapp.domain.repository.WeatherRepository
-import com.devsa707.weatherapp.domain.util.Resource
+import com.devsa707.weatherapp.di.util.Resource
 import com.devsa707.weatherapp.domain.weather.WeatherInfo
 import javax.inject.Inject
 
